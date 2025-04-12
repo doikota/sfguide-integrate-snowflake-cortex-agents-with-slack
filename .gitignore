@@ -1,6 +1,6 @@
 .DS_Store
-rsa_key.p8
-rsa_key.pub
+snowflake_rsa_key.p8
+snowflake_rsa_key.pub
 .env
 __pycache__
 .venv/
