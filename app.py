@@ -73,9 +73,9 @@ Were polished and ready, the hype never delayed.
 @app.event("message")
 def handle_message_events(ack, body, say):
 
-    # ボット自身のメッセージには反応しないようにする
+    # Not to react to bot_id messages
     if "bot_id" in body['event']:
-        return  # 無視する
+        return  # do nothing
 
     try:
         ack()
